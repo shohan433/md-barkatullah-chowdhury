@@ -76,9 +76,9 @@ export default function About() {
     : skills.filter(skill => skill.category === activeCategory);
 
   const stats = [
-    { icon: <Award size={20} />, value: "5+", label: "Years Experience" },
-    { icon: <CheckCircle size={20} />, value: "40+", label: "Projects Completed" },
-    { icon: <User size={20} />, value: "20+", label: "Happy Clients" },
+    { icon: <Award size={20} />, value: "1.5+", label: "Years Experience" },
+    { icon: <CheckCircle size={20} />, value: "6+", label: "Projects Completed" },
+    { icon: <User size={20} />, value: "5+", label: "Happy Clients" },
   ];
 
   return (

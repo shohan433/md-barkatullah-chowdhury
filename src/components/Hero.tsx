@@ -232,13 +232,24 @@ export default function Hero() {
               />
             </motion.div>
 
-            <div style={{
-              fontSize: "0.95rem",
-              color: "var(--text-main)",
-              fontWeight: 500,
-              marginBottom: "16px"
-            }}>
-            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.85, duration: 0.45 }}
+              style={{
+                fontSize: "0.95rem",
+                color: "var(--text-muted)",
+                fontWeight: 500,
+                marginBottom: "16px",
+                textAlign: "center",
+                letterSpacing: "0.01em",
+              }}
+            >
+              Developer in{" "}
+              <span style={{ color: "var(--accent-primary)", fontWeight: 700 }}>JEVXO</span>
+              {" "}&amp;{" "}
+              <span style={{ color: "var(--text-main)", fontWeight: 600 }}>Researcher</span>
+            </motion.div>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}

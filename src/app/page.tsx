@@ -15,6 +15,7 @@ export default function Home() {
       <main style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
         <Hero />
         <About />
+
         <Projects />
         <Contact />
       </main>
